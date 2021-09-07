@@ -2,7 +2,7 @@
 
 Um dos processos durante a modelagem e construção de um DW (data warehouse) ou DM (data mart) é realizar a estimativa do espaço em disco que será ocupado por esse banco de dados. 
 
-Para isso, é recomendado algumas etapas como: <br/> 
+Para isso, são recomendadas algumas etapas como: <br/> 
 - Realizar a estimativa de cada linha na tabela FATO (Pode se utilizar a coluna QUANTIDADELINHAS).<br/>
 - Determinar a granularidade das tabelas DIMENSÃO. <br/>
 - Realizar uma multiplicação entre o número de linhas de todas as tabelas dimensões, após risso multiplicar o resultado pelo tamanho de cada linha na(s) tabela(s) FATO(S).<br/>
