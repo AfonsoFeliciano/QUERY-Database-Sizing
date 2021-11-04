@@ -1,4 +1,4 @@
-# QUERY-Database-Sizing
+# Query-Database-Sizing
 
 Um dos processos durante a modelagem e construção de um DW (data warehouse) ou DM (data mart) é realizar a estimativa do espaço em disco que será ocupado por esse banco de dados. 
 
