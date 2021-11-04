@@ -6,7 +6,7 @@ Para isso, são recomendadas algumas etapas como: <br/>
 - Realizar a estimativa de cada linha na tabela FATO (Pode se utilizar a coluna QUANTIDADELINHAS).<br/>
 - Determinar a granularidade das tabelas DIMENSÃO. <br/>
 - Realizar uma multiplicação entre o número de linhas de todas as tabelas dimensões, após isso multiplicar o resultado pelo tamanho de cada linha na(s) tabela(s) FATO(S).<br/>
-- Feito isso, avaliar o tipo da tabela FATO em esparsa ou densa (não irei me aprofundar no conceito visto que há muitas interpretações, mas em geral, uma tabela fato densa possui valores para as chaves estrangeiras mesmo que os fatos não aconteceram, indicando um valor genérico na dimensão. Já uma tabela esparsa, já a tabela fato esparsa possui um número pequeno de combinações entre as chaves estrangeiras e chaves primárias das tabelas dimensões) para estimar uma possível redução ou aumento do tamanho do banco de dados.
+- Feito isso, avaliar o tipo da tabela FATO em esparsa ou densa (não irei me aprofundar no conceito visto que há muitas interpretações, mas em geral, uma tabela fato densa possui valores para as chaves estrangeiras mesmo que os fatos não aconteceram, indicando um valor genérico na dimensão. Já uma tabela esparsa, possui um número pequeno de combinações entre as chaves estrangeiras e chaves primárias das tabelas dimensões) para estimar uma possível redução ou aumento do tamanho do banco de dados.
 
 
 ![Screenshot](imgs/Screenshot_1.png)
